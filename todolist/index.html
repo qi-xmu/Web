@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ToDo-待办事项</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <form action="javascript:postaction()" id="form">
+                <label for="title">待办事项</label>
+                <input type="text" id="title" name="title" placeholder="添加 事项" required="required" autocomplete="off" />
+            </form>
+        </section>
+    </header>
+    <section>
+        <h2 onclick="save()">> 进行 Ing <span id="todocount"></span></h2>
+        <ol id="todolist" class="demo-box">
+        </ol>
+        <h2>> 完成 End<span id="donecount"></span></h2>
+        <ul id="donelist">
+        </ul>
+    </section>
+    <footer>
+        <a href="javascript:clear();">清 除</a>
+        <hr>
+        Copyright &copy; 2020 todolist.cn && qideblog.club
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

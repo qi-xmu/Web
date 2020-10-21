@@ -1,0 +1,152 @@
+*{
+    font-family: 宋体;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: #e4e4e4;
+}
+header {
+    height: 50px;
+    background: #333;
+    background: #006DFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+section {
+    margin: 0 auto;
+}
+label {
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    color: #ddd;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* 输入框 */
+header input {
+    float: right;
+    width: 64%;
+    height: 30px;
+    margin-top: 10px;
+    text-indent: 12px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);
+    border: none;
+}
+input:focus {
+    margin-top: 8px;
+    outline-width: 0;
+    border-style:none;
+    border-left: 1px solid black;
+}
+h2 {
+    position: relative;
+    color:#000;
+    background-color: #fff;
+    font-family: 微软雅黑;
+    padding:2px;
+    border-left: 5px solid #006DFF;
+}
+span {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    display: inline-block;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: 700;
+}
+ol,
+ul {
+    padding: 5px;
+    list-style: none;
+}
+li input {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    padding:5px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+p {
+    margin: 0;
+    padding:1px;
+    font-size: 18px;
+    font-family: 宋体;
+    font-weight: 700;
+}
+li p input {
+    top: 3px;
+    left: 40px;
+    width: 70%;
+    height: 20px;
+    line-height: 14px;
+    text-indent: 5px;
+    font-size: 14px;
+}
+li {
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 45px;
+    border-left: 8px solid #519fa1;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+ol li {
+    cursor: move;
+}
+ul li {
+    border-left: 8px solid #999;
+    opacity: 0.6;
+}
+li a {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    border: 6px double #fff;
+    box-shadow: 0px 0px 2px #000;
+    background: #DC4C40;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+footer {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+footer a {
+    color: #666;
+    font-size: 15px;
+    background-color: #DC4C40;
+    padding:5px 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (max-device-width: 620px) {
+    section {
+        width: 96%;
+        padding: 0 2%;
+    }
+}
+@media screen and (min-width: 620px) {
+    section {
+        width: 600px;
+        padding: 0 10px;
+    }
+}

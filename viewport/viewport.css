@@ -1,0 +1,35 @@
+.content>div{
+    height: 600px;
+    /* border: 2px dashed black; */
+    float:left;
+}
+.one{
+    width:15%;
+    background-color: brown;
+}
+.two, .three{
+    width:40%;
+    background-color: blue;
+}
+.three{
+    background-color: coral;
+}
+
+@media only screen and (max-width:768px){
+    .one{
+        width:96%
+    }
+    .three, .two{
+        width:48%;
+    }
+}
+@media only screen and (max-width:400px){
+    .two, .three{
+        width:96%
+    }
+}
+@media only screen and (max-width:400px){
+    #box{
+
+    }
+}

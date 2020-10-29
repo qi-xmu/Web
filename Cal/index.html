@@ -6,6 +6,7 @@
             This is a calculator!
         </title>
         <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <script rel="script" src="js/cal.js"></script>
     </head>
     <body>
         <h1 align="center">计算器</h1>
@@ -13,38 +14,39 @@
             <div id="mainboard">
                 <input id="input" value="0">
                 <div class="first">
-                    <div class="bt-gray">C</div>
-                    <div class="bt-gray">←</div>
-                    <div class="bt-gray">÷</div>
-                    <div class="bt-yellow">×</div>
+                    <div class="bt-gray" onclick="clickBtn('')" >C</div>
+                    <div class="bt-gray" onclick="del('')">←</div>
+                    <div class="bt-gray" onclick="clickBtn('/')">÷</div>
+                    <div class="bt-yellow" onclick="clickBtn('*')">×</div>
                 </div>
 
                 <div class="first">
-                    <div class="bt-black">7</div>
-                    <div class="bt-black">8</div>
-                    <div class="bt-black">9</div>
-                    <div class="bt-yellow">-</div>
+                    <div class="bt-black" onclick="clickBtn('7')" >7</div>
+                    <div class="bt-black" onclick="clickBtn('8')">8</div>
+                    <div class="bt-black" onclick="clickBtn('9')">9</div>
+                    <div class="bt-yellow" onclick="clickBtn('-')">-</div>
                 </div>
                 <div class="first">
-                    <div class="bt-black">4</div>
-                    <div class="bt-black">5</div>
-                    <div class="bt-black">6</div>
-                    <div class="bt-yellow">+</div>
+                    <div class="bt-black" onclick="clickBtn('4')">4</div>
+                    <div class="bt-black" onclick="clickBtn('5')">5</div>
+                    <div class="bt-black" onclick="clickBtn('6')">6</div>
+                    <div class="bt-yellow" onclick="clickBtn('+')">+</div>
                 </div>
 
-                <div class="bt-equal">=</div>
+                <div class="bt-equal bt-yellow" onclick="cal()">=</div>
                 <div class="second">
-                    <div class="bt-black">1</div>
-                    <div class="bt-black">2</div>
-                    <div class="bt-black">3</div>
+                    <div class="bt-black" onclick="clickBtn('1')">1</div>
+                    <div class="bt-black" onclick="clickBtn('2')">2</div>
+                    <div class="bt-black" onclick="clickBtn('3')">3</div>
                 </div>
                 <div class="second">
-                    <div class="bt-zero">0</div>
-                    <div class="bt-black">.</div>
+                    <div class="bt-zero bt-black"  onclick="clickBtn('0')">0</div>
+                    <div class="bt-black" onclick="clickBtn('.')">.</div>
 
                 </div>
             </div>
 
         </div>
+
     </body>
 </html>

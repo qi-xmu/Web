@@ -9,7 +9,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 280px;
-    height: 400px;
+    height: 420px;
     border-radius: 20px;
     background-color: black;
 }
@@ -17,26 +17,25 @@
 {
     position: relative;
     left: 50%;
-    margin: 30px 0 10px 0;
     transform: translate(-50%,0);
+    margin: 30px 0 20px 0;
     text-decoration: none;
     border: none;
     background-color: #4E4D4D;
     width: 240px;
-    height: 36px;
+    height: 40px;
     text-align: right;
-    font-size: larger;
+    font-size: 28px;
     color: white;
-
 }
 
 .first
 {
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center;    /* 垂直居中 */
+    justify-content: center;
+    align-items: center;
 }
-.first>*
+.first>*,.second>*
 {
     border-radius: 50%;
     line-height: 50px;
@@ -55,13 +54,11 @@
     color:white;
     background-color: #D88F03;
 }
-
 .bt-black
 {
     background-color: #606060;
     color:white;
 }
-
 .second
 {
     width: 180px;
@@ -76,24 +73,11 @@
     line-height: 110px;
     width: 50px;
     height: 110px;
-    background-color: #D88F03;
-    color:white;
     float: right;
     margin-right: 25px;
-}
-.second>*
-{
-    border-radius: 100%;
-    line-height: 50px;
-    text-align: center;
-    margin: 5px;
-    width: 50px;
-    height: 50px;
 }
 .bt-zero
 {
     width: 110px;
-    color:white;
-    background-color: #606060;
     border-radius: 30px;
 }

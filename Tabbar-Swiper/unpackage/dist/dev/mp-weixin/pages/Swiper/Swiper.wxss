@@ -1,0 +1,12 @@
+
+.swiper-item
+{
+	height:250px;
+}.green{
+	background-color: #1CA261;
+}.red{
+	background-color: #DB4E42;
+}.yellow{
+	background-color: #FFCD40;
+}
+

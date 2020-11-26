@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is a web powered by vue!
+        </title>
+        <script src="./js/vue.js"></script>
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <input placeholder="input anything you like!" v-model={{content}}>
+            <div id="app">
+                <p>Hello, {{foo}}</p>
+                <!-- 这里的 `foo` 不会更新！ -->
+                <button v-on:click="foo = 'baz'">Change it</button>
+              </div>
+            <p>THis is just a test!</p>
+        </div>
+    </body>
+</html>

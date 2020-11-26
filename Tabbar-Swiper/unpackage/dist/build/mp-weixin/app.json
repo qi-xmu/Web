@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/Swiper/Swiper"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#ffffff",
+        "fontSize": "40px",
+        "selectedColor": "#61B6E2",
+        "borderStyle": "black",
+        "backgroundColor": "#262421",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/image/iconLamp.png",
+                "selectedIconPath": "static/image/iconLamp_Selected.png",
+                "text": "Tabbar"
+            },
+            {
+                "pagePath": "pages/Swiper/Swiper",
+                "iconPath": "static/image/iconBell.png",
+                "selectedIconPath": "static/image/iconBell_Selected.png",
+                "text": "Swiper"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
